@@ -1,0 +1,17 @@
+Nom du fichier photo : photo.png
+
+Prénom : Médéric
+
+Nom : Voisin
+
+Date de naissance : 12 avril 1985
+
+Adresse : 245 CD 13 Piton St Leu, 97424 Piton St Leu
+
+Email : moncul@gmail.com
+
+Biographie : J'aime voyager, découvrir de nouvelles cultures, de nouveaux paysages. 
+
+Projets pro futurs : Intégrer un réseau ou une entreprise.
+
+Hobbies : Photo, Running, montage vidéo.
