@@ -1,0 +1,45 @@
+
+
+.bg-grey {
+    background-color: #F5F5F5;
+}
+
+body {
+    font-size: 14px;
+    line-height: 1.75;
+    color: #777;
+    font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  padding-left: 10px;
+  color: #281E1E;
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+ul {
+  list-style-type: square;
+  padding-left: 30px;
+}
+
+label, p {
+  padding-left: 10px;
+}
+
+footer, header {
+  text-align: center;
+  color: #ffffff;
+  border-radius: 3px
+}
+
+a {
+  color: #289323;
+}
+
+.bg-green {
+        background-color: #289323;
+}
+
+section {
+  border-radius: 5px
+}
