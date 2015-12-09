@@ -3,12 +3,14 @@
   <head>
     <title>Le titre du document</title>
     <link rel="stylesheet" href="style.css" />
+    <script src="mon_script.js"></script>
   </head>
   <body>
     <section class="section-largeur">
+      <p id="compteur-click">0</p>
       <ul class="trombi">
         <li>
-          <img src="http://placehold.it/150x150"/>
+          <img onclick="afficherPhoto(this)" src="http://placehold.it/150x150"/>
           <a href="mvoisin.html">toto</a>
         </li>
         <li>
