@@ -59,7 +59,8 @@ footer {
 
 .menu a {
     color: #fff;
-    text-decoration: none;
+    text-decoration: none;*
+
 }
 
 header {
@@ -106,10 +107,6 @@ header {
   width: 50%;
   text-align: center;
   padding-top: 17px;
-}
-
-section {
-  min-height: 220px;
 }
 
 .div-realise {
@@ -200,8 +197,57 @@ form {
 
 .section-contact {
     background-color: #F5F5F5;
-    padding: 60px;
+    padding-top: 10px;
+    padding-bottom: 60px;
 }
 .titre-contact {
   text-align: center;
+}
+
+#photo {
+  width: 200px;
+  height: 200px;
+  border-radius: 4px;
+}
+
+#section-bio {
+  height: 100px;
+  padding: 10px;
+}
+
+#section-moi {
+  height: 240px;
+}
+
+#section-projet {
+  height: 220px;
+  padding: 10px;
+  padding-bottom: 35px;
+}
+
+#section-loisir {
+  padding-bottom: 20px;
+}
+
+input {
+  border-radius: 4px;
+}
+
+textarea {
+  border-radius: 4px;
+}
+
+button {
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: white;
+  background-color: #71b43d;
+  border-radius: 4px;
+}
+
+.lapin {
+  border-radius: 4px;
+  height: 60px;
+  width: 60px;
+  float: right;
+  margin-top: -68px;
 }

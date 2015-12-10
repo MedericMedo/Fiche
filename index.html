@@ -1,8 +1,9 @@
 <!doctype html>
   <html lang="fr">
     <head>
-      <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
       <meta charset="utf-8">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+      <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
       <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css">
       <title>Nom Prénom | Còdi n Camp - Promo 1 </title>
      <link rel="stylesheet" href="style.css">
@@ -13,15 +14,16 @@
     <nav>
       <span class="nom-couleur">Voisin Médéric</span>
       <ul class="menu">
-        <li><a href="#lien-moi">Moi</a></li>
+        <li><a href="/trombi_promo1.html">Pomo #1</a></li>
         <li><a href="#lien-bio">Biographie</a></li>
         <li><a href="#lien-obj">Objectif</a></li>
         <li><a href="#lien-projet">Projet</a></li>
         <li><a href="contact.html">Contact</a></li>
      </ul>
+     <img class="lapin" src="http://codincamp.fr/static/img/about/chrono4.png"/>
    </nav>
  </header>
-		<section>
+		<section id="section-moi">
       <div class="largeur-texte">
         <div class="div-texte-moi">
 	      	<h3 id="lien-moi">A propos de moi</h3>
@@ -32,12 +34,12 @@
 		      	<label>Compte Github : </label> <a class="couleur-lien" href="https://github.com/MedericMedo">mvoisin</a> <br>
         </div>
         <div class="div-photo-profil">
-          <img src="http://placehold.it/150x200">
+          <img id="photo" src="https://scontent-cdg2-1.cdninstagram.com/hphotos-xaf1/t51.2885-15/e15/11263265_1446436178989247_1568826895_n.jpg">
         </div>
       </div>
 		</section>
 		<section class="bg-grey">
-      <div class="largeur-texte">
+      <div id="section-bio" class="largeur-texte">
 			<h3 id="lien-bio">Biographie</h3>
 				<p>J'aime voyager, découvrir de nouveaux paysages et de nouvelles cultures.</p>
       </div>
@@ -48,7 +50,7 @@
 				<p>Intégrer une entreprise ou me mettre à mon compte.</p>
       </div>
 		</section>
-		<section class="bg-grey">
+		<section id="section-projet" class="bg-grey">
       <div class="largeur-texte">
 			<h3 id="lien-projet">Projets</h3>
         <div class="div-realise">
@@ -68,7 +70,7 @@
         </div>
        </div>
 		</section>
-		<section>
+		<section id="section-loisir">
       <div class="largeur-texte">
 			<h3 >Loisirs</h3>
 				<ul>
@@ -78,7 +80,7 @@
       </div>
 		</section>
     <section class="section-contact">
-      <h3 class="titre-contact">Contact</h3>
+      <h3 class="titre-contact"><i class="fa fa-envelope"></i>      Contact</h3>
     <form class="form-marge" action="/back/contact" method="post">
       <input type="hidden" name="to" value="mederic.medo@gmail.com"/>
         <div>
