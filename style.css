@@ -191,9 +191,17 @@ form {
 }
 
 .form-marge {
-  margin-top: 70px;
+  background-color: white;
 }
 
 .body-marge {
   margin: 0px;
+}
+
+.section-contact {
+    background-color: #F5F5F5;
+    padding: 60px;
+}
+.titre-contact {
+  text-align: center;
 }
